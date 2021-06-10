@@ -1,18 +1,34 @@
 from flask import Flask, request, Response
-import redisDB
-import loadData
+from apscheduler.schedulers.background import BackgroundScheduler
+from redisDB import RedisDB
+from invalidProxiesChecker import InvalidProxiesChecker
+
+COUNTRIES = ['us', 'uk']
 
 app = Flask(__name__)
+
+redisDb = RedisDB()
+invalidProxiesChecker = InvalidProxiesChecker()
+
+scheduler = BackgroundScheduler()
+scheduler.add_job(func=invalidProxiesChecker.check_invalid_expiration, trigger="interval", seconds=60)
+scheduler.start()
+
+redisDb.load_data()
 
 
 @app.route('/')
 def home():
-    return "hello world"
+    return "Proxy Rotator Web Server"
 
 
-@app.route('/GetProxy/<country>', methods=["GET"])
+@app.route('/GetProxy/<string:country>', methods=["GET"])
 def get_proxy(country):
-    proxyAddress = redisDB.get_next_proxy_by_country(country)
+    if country not in COUNTRIES:
+        return Response(status=400)  # no such country code
+    proxyAddress = redisDb.get_next_proxy_by_country(country)
+    if not proxyAddress:
+        return Response(status=404)  # no available proxy for the country at the moment
     return Response({proxyAddress}, status=200)
 
 
@@ -20,12 +36,11 @@ def get_proxy(country):
 def report_error():
     address = request.json["address"]
     country = request.json["country"]
-    result = redisDB.mark_proxy_invalid(address, country)
+    result = redisDb.mark_proxy_invalid(address, country)
     if result == 1:
-        return Response(status=200)
-    return Response(status=400)
+        return Response(status=200)  # proxy was marked as invalid
+    return Response(status=400)  # no such country code and ip address combination in db
 
 
 if __name__ == "__main__":
-    loadData.insert_proxies_to_db()
-    app.run(debug=True, host="0.0.0.0")
+    app.run(host="localhost")
