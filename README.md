@@ -30,14 +30,15 @@ python app.py
 ## Supported Requests:
 1. HTTP GET: /GetProxy - gets a country code (‘us’\ ‘uk’) and returns a proxy from the list
 
-GET request to http://localhost:5000/GetProxy/<country_code>
+    GET request to http://localhost:5000/GetProxy/<country_code>
+
 2. HTTP POST: /ReportError - Gets an IP address and a country code and marks it as invalid for the next 6 hours.
 
-POST request to http://localhost:5000/GetProxy/ReportError with json body: {"address":"x.x.x.x", "country":"country_code"} 
+    POST request to http://localhost:5000/GetProxy/ReportError with json body: {"address":"x.x.x.x", "country":"country_code"} 
 
 
 ### Possible improvements (if had more time) :
 * Run the project with Docker instead of running it locally.
 * Use Celery worker to run a background job instead of using BackgroundScheduler (from apscheduler).
 * Distrbute the system on a number of servers.
-* Maybe figure out if there is a way to report a proxy as invalid in O(1) (in current implementaion GetProxy is O(1) and ReportError is O(n) where n is the number of proxies in the country list).
+* Continue thinking and searching if there is a way to report a proxy as invalid in O(1) (in current implementaion GetProxy is O(1) and ReportError is O(n) where n is the number of proxies in the country list).

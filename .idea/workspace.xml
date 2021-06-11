@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="219b8a52-4f4f-4a03-8e78-a196cfd012b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,23 +102,31 @@
       <option name="project" value="LOCAL" />
       <updated>1623415123310</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="removed venv">
+      <created>1623418404602</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623418404602</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="clean code, added comments" />
     <MESSAGE value="edited readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited readme" />
+    <MESSAGE value="removed venv" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed venv" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2059" y="273" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623415098787">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2059" y="273" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623415098787" />
-    <state x="1841" y="66" width="960" height="915" key="CommitChangelistDialog2" timestamp="1623415123183">
+    <state x="1841" y="66" width="960" height="915" key="CommitChangelistDialog2" timestamp="1623418403992">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1841" y="66" width="960" height="915" key="CommitChangelistDialog2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623415123183" />
+    <state x="1841" y="66" width="960" height="915" key="CommitChangelistDialog2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623418403992" />
     <state width="1897" height="260" key="GridCell.Tab.0.bottom" timestamp="1623180929863">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -137,10 +147,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="172" y="18" key="SettingsEditor/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1623330501172" />
-    <state x="1921" y="260" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1623415130593">
+    <state x="1921" y="260" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1623418411419">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1921" y="260" width="800" height="528" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623415130593" />
+    <state x="1921" y="260" width="800" height="528" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623418411419" />
     <state x="1842" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1623412569686">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
