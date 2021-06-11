@@ -93,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623414905923</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="edited readme">
+      <created>1623415123310</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623415123310</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,10 +113,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2059" y="273" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623415098787" />
-    <state x="1841" y="66" width="960" height="915" key="CommitChangelistDialog2" timestamp="1623415081768">
+    <state x="1841" y="66" width="960" height="915" key="CommitChangelistDialog2" timestamp="1623415123183">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1841" y="66" width="960" height="915" key="CommitChangelistDialog2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623415081768" />
+    <state x="1841" y="66" width="960" height="915" key="CommitChangelistDialog2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623415123183" />
     <state width="1897" height="260" key="GridCell.Tab.0.bottom" timestamp="1623180929863">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -130,10 +137,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="172" y="18" key="SettingsEditor/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1623330501172" />
-    <state x="1921" y="260" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1623411480303">
+    <state x="1921" y="260" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1623415130593">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1921" y="260" width="800" height="528" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623411480303" />
+    <state x="1921" y="260" width="800" height="528" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623415130593" />
     <state x="1842" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1623412569686">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -143,5 +150,9 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1994" y="317" width="653" height="413" key="git4idea.merge.GitPullDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623415105840" />
+    <state x="2051" y="424" width="540" height="200" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1623418191801">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2051" y="424" width="540" height="200" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623418191801" />
   </component>
 </project>
