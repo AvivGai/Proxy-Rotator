@@ -4,6 +4,7 @@ A web server app to get proxy IP address by country code. The server returns pro
 * Code written in Python
 * Flask framework
 * Redis as DB
+* https://www.mockaroo.com/ for generating mock data file
 
 ## Usage:
 Clone the repository and cd into it:
@@ -26,7 +27,14 @@ Run the project:
 ```bash
 python app.py
 ```
+If wanting to reset the DB:
 
+close the server, and then
+```bash
+redis-cli
+FLUSHALL
+```
+and run the server again
 ## Supported Requests:
 1. HTTP GET: /GetProxy - gets a country code (‘us’\ ‘uk’) and returns a proxy from the list
 
