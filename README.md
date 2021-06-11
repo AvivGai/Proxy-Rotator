@@ -27,14 +27,6 @@ Run the project:
 ```bash
 python app.py
 ```
-If wanting to reset the DB:
-
-close the server, and then
-```bash
-redis-cli
-FLUSHALL
-```
-and run the server again
 ## Supported Requests:
 1. HTTP GET: /GetProxy - gets a country code (‘us’\ ‘uk’) and returns a proxy from the list
 
