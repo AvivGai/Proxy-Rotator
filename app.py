@@ -41,4 +41,4 @@ def report_error():
 
 
 if __name__ == "__main__":
-    app.run(host=FLASK_HOST)
+    app.run(FLASK_HOST)

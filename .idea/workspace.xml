@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="219b8a52-4f4f-4a03-8e78-a196cfd012b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,10 +128,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1921" y="260" width="800" height="528" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623411480303" />
-    <state x="1842" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1623409267439">
+    <state x="1842" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1623412569686">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="339" y="210" key="com.intellij.ide.util.TipDialog/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1623345803508" />
-    <state x="1842" y="267" key="com.intellij.ide.util.TipDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623409267439" />
+    <state x="1842" y="267" key="com.intellij.ide.util.TipDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623412569686" />
   </component>
 </project>
