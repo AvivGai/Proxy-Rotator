@@ -1,5 +1,6 @@
-from redisDB import RedisDB, INVALID_PROXY_KEY
 import time
+from redisDB import RedisDB
+from configuration import INVALID_PROXY_KEY
 
 
 class InvalidProxiesChecker:
@@ -19,19 +20,21 @@ class InvalidProxiesChecker:
     def make_proxy_valid_again(self, proxyParametersList):
         country = self.get_proxy_country(proxyParametersList)
         address = self.get_proxy_address(proxyParametersList)
-        countryListKey = self.r.get_proxy_addresses_key_by_country(country)
+        countryListKey = self.r.get_addresses_key_by_country(country)
         self.r.rpush_to_list(countryListKey, address)
 
     def check_invalid_expiration(self):
         timestamp = 0
         while float(timestamp) < time.time():
-            proxy = self.r.lpop_from_list(INVALID_PROXY_KEY)
-            if not proxy:
+            proxyToCheck = self.r.lpop_from_list(
+                INVALID_PROXY_KEY)  # proxy format: "us_1.1.1.1_524786" (country_address_invalidExpirationTime)
+            if not proxyToCheck:
                 break
-            proxyParameters = proxy.split("_")
+            proxyParameters = proxyToCheck.split("_")
             timestamp = self.get_proxy_timestamp(proxyParameters)
             if float(timestamp) < time.time():
                 self.make_proxy_valid_again(proxyParameters)
             else:
-                self.r.lpush_to_list(proxy)
-                break
+                self.r.lpush_to_list(proxyToCheck)  # return proxy to the head of the list
+                break  # since we are pushing invalid proxies to the end of the list, they are sorted by time,
+                # so i the first one is not valid there is no point to check the rest

@@ -2,13 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="219b8a52-4f4f-4a03-8e78-a196cfd012b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/invalidProxiesChecker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loadData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invalidProxiesChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/invalidProxiesChecker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redisDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/redisDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/MOCK_PROXIES_DATA.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/MOCK_PROXIES_DATA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/MOCK_PROXIES_DATA.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/MOCK_PROXIES_DATA_10000.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click-8.0.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click-8.0.1.dist-info/LICENSE.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click-8.0.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click-8.0.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click-8.0.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click-8.0.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/_termui_impl.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/_termui_impl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/_textwrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/_textwrap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/_unicodefun.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/_unicodefun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/_winconsole.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/_winconsole.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/formatting.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/formatting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/globals.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/globals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/py.typed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/shell_completion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/termui.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/termui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/click/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,10 +134,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="172" y="18" key="SettingsEditor/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1623330501172" />
-    <state x="1842" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1623355052682">
+    <state x="1921" y="260" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1623358307180">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1921" y="260" width="800" height="528" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623358307180" />
+    <state x="1842" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1623409267439">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="339" y="210" key="com.intellij.ide.util.TipDialog/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1623345803508" />
-    <state x="1842" y="267" key="com.intellij.ide.util.TipDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623355052682" />
+    <state x="1842" y="267" key="com.intellij.ide.util.TipDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1623409267439" />
   </component>
 </project>
